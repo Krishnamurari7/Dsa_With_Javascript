@@ -4,9 +4,9 @@ for (let i = 0; i < data.length; i++) {
     console.log(`Array is ${i} is ${data[i]} `);
 
 
-    let x = 5;
+    // let x = 5;
     // document.write(data[x]);
-    console.log(data[x]);
+    // console.log(data[x]);
     
 }
 // console.log(element);
