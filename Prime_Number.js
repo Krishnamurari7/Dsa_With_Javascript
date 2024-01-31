@@ -15,13 +15,15 @@ if(isPrimeNumber == true){
 }
 
 
+
+
 //second method
 
-const number = 5;
+const number = 15;
 if(number == 1){
     console.log(`${number}is neither prime nor composite`);
 }else if(number < 1){
-    console.log(`${number}is not a prime number`);
+    console.log(`${number}is not a number`);
 }else{
     for(let i = 2; i < number; i++){
         if(number%i == 0){
