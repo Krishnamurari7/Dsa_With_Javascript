@@ -1,3 +1,6 @@
+
+//first method
+
 const num = 2;
 const isPrimeNumber = true;
 for (let i = 1; i < num; i++) {
@@ -12,12 +15,9 @@ if(isPrimeNumber == true){
 }
 
 
-
-
 //second method
 
-
-const number = 16;
+const number = 5;
 if(number == 1){
     console.log(`${number}is neither prime nor composite`);
 }else if(number < 1){
@@ -25,9 +25,11 @@ if(number == 1){
 }else{
     for(let i = 2; i < number; i++){
         if(number%i == 0){
-            console.log('it is a not prime number');
+            var res = `${number} is not a prime number`;
+            break;
         }else{
-            console.log(`${number}is prime number`);
+            var res = `${number} is a prime number`
         }
     }
+    console.log(res);
 }
