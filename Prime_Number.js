@@ -56,3 +56,27 @@ function isPrime(number) {
     console.log(`${numToCheck} is not a prime number.`);
   }
   
+
+
+
+  //fourth method
+
+
+const a = 1;
+
+if(a == 2){
+  console.log("it is prime number");
+}else if(a < 0){
+  console.log("it is not a positive number"); 
+}else{
+  for(let i = 2; i < a; i++){
+    if(a % i == 0){
+      var res = `${a} is a not prime number` 
+      break;
+    }
+    else{
+      var res = `${a} is a prime number` 
+    }
+  }
+  console.log(res);
+}
