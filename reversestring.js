@@ -7,3 +7,4 @@ console.log(`total letter are == ${rever}`);
 console.log(`total space are == ${count}`);
 const rev = reverseString.reverse().join(''); 
 console.log(`reverse string are == ${rev}`);
+
