@@ -30,7 +30,6 @@ function findSum(array){
         }
     }
 }
-
 const output = sumZero([-5, -4, -3, -2, 0, 2, 8, 3]);
 console.log(output);
 
