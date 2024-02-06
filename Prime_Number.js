@@ -36,7 +36,6 @@ if(number == 1){
     console.log(res);
 }
 
-
 //third method
 function isPrime(number) {
     if (number <= 1) {
@@ -56,8 +55,6 @@ function isPrime(number) {
     console.log(`${numToCheck} is not a prime number.`);
   }
   
-
-
 
   //fourth method
 
