@@ -1,18 +1,18 @@
 
 //first method
 
-const num = 2;
-const isPrimeNumber = true;
-for (let i = 1; i < num; i++) {
-    if(num % i == 0){
-        isPrimeNumber == false;
-    }
-}
-if(isPrimeNumber == true){
-    console.log("is prime number");
-}else{
-    console.log("not a prime number");
-}
+// const num = 12;
+// const isPrimeNumber = true;
+// for (let i = 1; i < num; i++) {
+//     if(num % i == 0){
+//         isPrimeNumber == false;
+//     }
+// }
+// if(isPrimeNumber == true){
+//     console.log(`${num} is prime number `);
+// }else{
+//     console.log("not a prime number");
+// }
 
 
 
