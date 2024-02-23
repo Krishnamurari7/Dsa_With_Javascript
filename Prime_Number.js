@@ -19,22 +19,22 @@
 
 //second method
 
-const number = 15;
-if(number == 1){
-    console.log(`${number}is neither prime nor composite`);
-}else if(number < 1){
-    console.log(`${number}is not a number`);
-}else{
-    for(let i = 2; i < number; i++){
-        if(number%i == 0){
-            var res = `${number} is not a prime number`;
-            break;
-        }else{
-            var res = `${number} is a prime number`
-        }
-    }
-    console.log(res);
-}
+// const number = 15;
+// if(number == 1){
+//     console.log(`${number}is neither prime nor composite`);
+// }else if(number < 1){
+//     console.log(`${number}is not a number`);
+// }else{
+//     for(let i = 2; i < number; i++){
+//         if(number%i == 0){
+//             var res = `${number} is not a prime number`;
+//             break;
+//         }else{
+//             var res = `${number} is a prime number`
+//         }
+//     }
+//     console.log(res);
+// }
 
 //third method
 function isPrime(number) {
@@ -59,21 +59,21 @@ function isPrime(number) {
   //fourth method
 
 
-const a = 1;
+// const a = 1;
 
-if(a == 2){
-  console.log("it is prime number");
-}else if(a < 0){
-  console.log("it is not a positive number"); 
-}else{
-  for(let i = 2; i < a; i++){
-    if(a % i == 0){
-      var res = `${a} is a not prime number` 
-      break;
-    }
-    else{
-      var res = `${a} is a prime number` 
-    }
-  }
-  console.log(res);
-}
+// if(a == 2){
+//   console.log("it is prime number");
+// }else if(a < 0){
+//   console.log("it is not a positive number"); 
+// }else{
+//   for(let i = 2; i < a; i++){
+//     if(a % i == 0){
+//       var res = `${a} is a not prime number` 
+//       break;
+//     }
+//     else{
+//       var res = `${a} is a prime number` 
+//     }
+//   }
+//   console.log(res);
+// }
