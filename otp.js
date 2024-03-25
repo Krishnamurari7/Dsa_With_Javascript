@@ -12,7 +12,3 @@
 
 // console.log("OTP of 4 digits: ") 
 // console.log(generateOTP());
-
-import otpGenerator from otpGenerator
-
-otpGenerator.generate(6, { upperCaseAlphabets: false, specialChars: false });
