@@ -12,3 +12,9 @@ function generateOTP() {
 
 console.log("OTP of 4 digits: ") 
 console.log(generateOTP());
+
+
+
+const otpGenerator = require('otp-generator')
+
+otpGenerator.generate(6, { upperCaseAlphabets: false, specialChars: false });
