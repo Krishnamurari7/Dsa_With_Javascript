@@ -1,7 +1,7 @@
 const num = 4
 
-function filterEvenNumbers(numbers) { 
-    return numbers.filter(); 
-  }
+function filterEvenNumbers(numbers){
+  
+}
 const even = filterEvenNumbers(45);
 console.log(even);
